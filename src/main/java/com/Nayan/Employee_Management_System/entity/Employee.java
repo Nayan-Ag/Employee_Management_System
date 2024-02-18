@@ -22,14 +22,14 @@ public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private Long Id;
 	
 	@Column(name = "first_name")
-	private String firstName;
+	private String FirstName;
 	
 	@Column(name = "last_name")
-	private String lastName;
+	private String LastName;
 	
 	@Column(name = "email_id" , nullable = false , unique = true)
-	private String email;
+	private String Email;
 }
